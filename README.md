@@ -273,8 +273,10 @@ The board has a 12V SPDT relay for switching power line loads such as Lamps and 
 
 ## Board Schematics
 Schematics PDF: https://github.com/parinatie/PIC32MX/blob/master/Downloads/PIC32MX795_Schematic.pdf
+
 ## Sample Codes
-#### LED Blinl:
+#### Note: All the codes work with USB Bootloader
+#### LED Blinl: 
 #### Switch Sense:
 #### External Interrupt1: 
 #### External Interrupt2: 
@@ -296,6 +298,9 @@ Schematics PDF: https://github.com/parinatie/PIC32MX/blob/master/Downloads/PIC32
 #### PWM LED intensity control:
 #### I2C:
 #### SPI:
-
+## Bootloader HEX
+In case you overwrite the USB bootloader, use PicKit4 or any hardware programmer to flash the USB bootloader program. USB Bootloader can be downloaded from here: https://github.com/parinatie/PIC32MX/blob/master/Downloads/USB_HID_Btl_795F512L_StarterKit.hex
+USB Bootloader courtesy Microchip. 
+More about Bootloader here: 
 ## Online resources & Courses
 PIC 32 Course on Udemy: https://www.udemy.com/user/74fe0e9f-2797-4fb8-b425-982f74d2c914/ 
