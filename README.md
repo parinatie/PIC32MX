@@ -1,6 +1,6 @@
 # PIC32MX
 <p align="center">
-<img src="https://github.com/parinatie/PIC32MX/blob/master/images/logo.png" width="320" height="280">
+<img src="https://github.com/parinatie/PIC32MX/blob/master/images/logo.png" width="160" height="140">
 </p>
 
 ## PIC 32MX DEVELOPMENT BOARD USER’S GUIDE
@@ -272,9 +272,30 @@ The board has a 12V SPDT relay for switching power line loads such as Lamps and 
 #### Figure: High-level block diagram of PIC32MX795F512L Development board
 
 ## Board Schematics
-
+Schematics PDF: https://github.com/parinatie/PIC32MX/blob/master/Downloads/PIC32MX795_Schematic.pdf
 ## Sample Codes
+#### LED Blinl:
+#### Switch Sense:
+#### External Interrupt1: 
+#### External Interrupt2: 
+#### External Interrupt3: 
+#### External Interrupt4:
+#### Change Notification Interrupt:
+#### Timer1:
+#### Timer1 Gated:
+#### Timer2:
+#### Timer2 Gated:
+#### Timer2 32-bit:
+#### Timer3:
+#### Timer4:
+#### Timer5:
+#### 16x2 LCD:
+#### ADC:
+#### ADC with interrupt:
+#### ADC LM35 Temperature Sensor:
+#### PWM LED intensity control:
+#### I2C:
+#### SPI:
 
 ## Online resources & Courses
-PIC 32 Course on Udemy:
-https://www.udemy.com/user/74fe0e9f-2797-4fb8-b425-982f74d2c914/ 
+PIC 32 Course on Udemy: https://www.udemy.com/user/74fe0e9f-2797-4fb8-b425-982f74d2c914/ 
