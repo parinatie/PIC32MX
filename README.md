@@ -278,101 +278,125 @@ Schematics PDF: https://github.com/parinatie/PIC32MX/blob/master/Downloads/PIC32
 #### Note: All the codes work with USB Bootloader
 #### LED Blink:  
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/LEDBlinkBTL.txt
+
 MPLABX Project: Coming soon
 
 #### Switch Sense:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/SwitchSense.c
+
 MPLABX Project: Coming soon
 
 #### External Interrupt0: 
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ExtInt0.c
+
 MPLABX Project: Coming soon
 
 #### External Interrupt1: 
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ExtInt1.c
+
 MPLABX Project: Coming soon
 
 #### External Interrupt2:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ExtInt2.c
+
 MPLABX Project: Coming soon
 
 #### External Interrupt3:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ExtInt3.c
+
 MPLABX Project: Coming soon
 
 #### External Interrupt4:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ExtInt4.c
+
 MPLABX Project: Coming soon
 
 #### Change Notification Interrupt: 
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/CN2.c
+
 MPLABX Project: Coming soon
 
 #### Timer1:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer1.c
+
 MPLABX Project: Coming soon
 
 #### Timer1 Gated:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer1_Gated.c
+
 MPLABX Project: Coming soon
 
 #### Timer2:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer2.c
+
 MPLABX Project: Coming soon
 
 #### Timer2 Gated:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer2_Gated.c
+
 MPLABX Project: Coming soon
 
 #### Timer2 32-bit:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer2_32Bit.c
+
 MPLABX Project: Coming soon
 
 #### Timer3:
 C code:https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer3.c
+
 MPLABX Project: Coming soon
 
 #### Timer4:
 C code:https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer4.c
+
 MPLABX Project: Coming soon
 
 #### Timer5:
 C code:https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer5.c
+
 MPLABX Project: Coming soon
 
 
 #### 16x2 LCD:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/LCD_main.c
+
 MPLABX Project: Coming soon
 
 #### ADC:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ADC_POT_RB3.c
+
 
 MPLABX Project: Coming soon
 
 #### ADC with interrupt:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ADC_POT_RB3_INT.c
 
+
 MPLABX Project: Coming soon
 
 #### ADC LM35 Temperature Sensor:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ADC_LM35_RB2_INT.c
+
 MPLABX Project: Coming soon
 
 #### PWM LED intensity control:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/PWM_LED.c
+
 MPLABX Project: Coming soon
 
 #### UART:
 C code:https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/UART1_ADC.c
+
 MPLABX Project: Coming soon
 
 #### I2C:
 C code: Coming soon
+
 MPLABX Project: Coming soon
 
 #### SPI:
 C code: Coming soon
+
 MPLABX Project: Coming soon
 
 ## Bootloader HEX
