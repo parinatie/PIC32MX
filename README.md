@@ -380,5 +380,15 @@ In case you overwrite the USB bootloader, use PicKit4 or any hardware programmer
 USB Bootloader courtesy Microchip. 
 More about Bootloader here: https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en554836
 PIC32 Bootloader Application Note: http://ww1.microchip.com/downloads/en/Appnotes/01388B.pdf
+
 ## Online resources & Courses
 PIC 32 Course on Udemy: https://www.udemy.com/user/74fe0e9f-2797-4fb8-b425-982f74d2c914/ 
+
+## Order Online
+To order the development board follow the link 
+
+## Contact Us
+Email: parinatie@gmail.com
+Web: www.swadeshee.org
+Mob: +91-8105330171 (IST 10:00 AM to 5:00 PM only)
+WhatsApp: +91-8105330171
