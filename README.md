@@ -2,6 +2,7 @@
 <p align="center">
 <img src="https://github.com/parinatie/PIC32MX/blob/master/images/logo.png" width="320" height="280">
 </p>
+
 ## PIC 32MX DEVELOPMENT BOARD USER’S GUIDE
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/PIC32MX1.png)
@@ -88,3 +89,7 @@ Fig. 5.12
 17. Dashboard gives details about the memory usage.(Refer Fig. 5.13)
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig513.png)
 Fig. 5.13
+
+## LED Blink Code
+
+Main code is available here: https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/LEDBlink_Pickit.txt
