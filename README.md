@@ -384,6 +384,9 @@ PIC32 Bootloader Application Note: http://ww1.microchip.com/downloads/en/Appnote
 ## Online resources & Courses
 PIC 32 Course on Udemy: https://www.udemy.com/user/74fe0e9f-2797-4fb8-b425-982f74d2c914/ 
 
+## PIC32MX Development Board User Manual
+Download from here https://github.com/parinatie/PIC32MX/blob/master/Downloads/PIC32Board_ManualV1_0.pdf
+
 ## Order Online
 To order the development board follow the link 
 
