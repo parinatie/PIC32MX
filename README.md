@@ -129,6 +129,10 @@ Main code is available here: https://github.com/parinatie/PIC32MX/blob/master/So
 
 ##     8 Using the Bootloader Program
 1. If the target board comes up with a bootloader, we need to add the custom linker file provided by the board vendor. Parinati PIC32MX795 development board has on-board USB bootloader. Copy the app_32MX795F512L.ld linker file (download from here: https://github.com/parinatie/PIC32MX/blob/master/Downloads/app_32MX795F512L.ld) to the project folder. (Refer Fig. 8.1)
+
+![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig81.png)
+
+
 2. In MPLABX IDE, under project folders, right click on linker files group and select Add existing Item.
 3. In the Add file pop-up, select the copied linker file and click on Select.
 4. IMPORTANT: The bootloader decides the configuration bits and we should not set the configuration bits in our application. So delete all #pragma lines which sets the configuration bits from the main program.
@@ -136,12 +140,38 @@ Main code is available here: https://github.com/parinatie/PIC32MX/blob/master/So
 6. Build the project.
 7. Now connect the Parinati PIC32MX795 development board to the computer. Press and hold the switch SW1 and press Reset button. (Place the Jumper J8 on SW1 position in  Parinati PIC32MX795 development board).
 8. On Windows machine it appears as HID compliant vendor-defined device with VID 04D8 and PID 003C. (Refer Fig. 8.4)
+
+![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig84.png)
+#### Fig. 8.4
+
 9. Run the PC Program PIC32UBL.exe (Available here: https://github.com/parinatie/PIC32MX/blob/master/Downloads/PIC32UBL.exe) on windows computer. Enable USB option with 04D8 and PID 003C. (Refer Fig. 8.5)
+
+![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig85.png)
+#### Fig. 8.5
 10. Click on Connect.(Refer Fig. 8.6)
+
+![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig86.png)
+#### Fig. 8.6
+
 11. Click on Erase and wait for Erase confirmation.(Refer Fig. 8.7)
+
+![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig87.png)
+#### Fig. 8.7
+
+
 12. Click on Load hex file and browse for hex file in the project folder: \\LEDBlink.X\dist\default\production
 Click on open. (Refer Fig. 8.8)
+
+![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig81.png)
+#### Fig. 8.8
+
 13. Click on Program, Verify and then Run Application. (Refer Fig. 8.9)
+
+![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig81.png)
+#### Fig. 8.9
+
 14. LED should blink in the Target Board. (Place the Jumper J5 on LED1 position in  Parinati PIC32MX795 development board).
+
 For more details and documentation on PIC32 Bootloader, visit: https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en554836 
+
 Check the 1388 Application Note: http://ww1.microchip.com/downloads/en/AppNotes/01388B.pdf
