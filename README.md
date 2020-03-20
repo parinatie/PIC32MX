@@ -1,6 +1,7 @@
 # PIC32MX
+<p align="center">
 <img src="https://github.com/parinatie/PIC32MX/blob/master/images/logo.png" width="320" height="280">
-
+</p>
 ## PIC 32MX DEVELOPMENT BOARD USER’S GUIDE
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/PIC32MX1.png)
