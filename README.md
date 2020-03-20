@@ -61,17 +61,17 @@ To communicate with and program the development board, the following hardware an
 5. Under hardware tools, select Simulator if the target board has Bootloader. If there is no bootloader, select ICD3/4 or PICKit3/4 as per your needs. Click Next. (Refer Fig. 5.3)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig53.png)
-#### Fig. 5.3
+####            Fig. 5.3
 
 6. Under Compiler toolchains, select the latest version of XC32 and click Next. (Refer Fig. 5.4)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig54.png)
-#### Fig. 5.4
+####            Fig. 5.4
 
 7. Enter Project name without spaces, select a project folder and tick on Set as Main Project and click Finish. (Refer Fig. 5.5)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig55.png)
-#### Fig. 5.5
+####            Fig. 5.5
 
 8. Under Projects, a number of directories are listed on the left side of the window. (Refer Fig. 5.6)
 
