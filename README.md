@@ -45,8 +45,8 @@ To communicate with and program the development board, the following hardware an
 1. Launch the MPLAB X IDE
 2. Under file menu click on New Project or use hotkey Ctrl+Shift+N 
 3. Select Microchip Embedded under categories and Standalone Project. Clik Next. (Refer Fig. 5.1)
-![] https://github.com/parinatie/PIC32MX/blob/master/images/Fig51.png)
-Fig. 5.1
+![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig51.png)
+*Fig. 5.1*
 4.In device, type PIC32MX795F512L and click Next. (Refer Fig. 5.2)
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig52.png)
 Fig. 5.2
