@@ -54,61 +54,65 @@ To communicate with and program the development board, the following hardware an
 #### Fig. 5.1
 
 4.In device, type PIC32MX795F512L and click Next. (Refer Fig. 5.2)
+
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig52.png)
-Fig. 5.2
+#### Fig. 5.2
+
 5. Under hardware tools, select Simulator if the target board has Bootloader. If there is no bootloader, select ICD3/4 or PICKit3/4 as per your needs. Click Next. (Refer Fig. 5.3)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig53.png)
-Fig. 5.3
+#### Fig. 5.3
 
 6. Under Compiler toolchains, select the latest version of XC32 and click Next. (Refer Fig. 5.4)
+
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig54.png)
-Fig. 5.4
+#### Fig. 5.4
+
 7. Enter Project name without spaces, select a project folder and tick on Set as Main Project and click Finish. (Refer Fig. 5.5)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig55.png)
-Fig. 5.5
+#### Fig. 5.5
 
 8. Under Projects, a number of directories are listed on the left side of the window. (Refer Fig. 5.6)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig56.png)
-Fig. 5.6
+#### Fig. 5.6
 
 9. Right click on Source files and select New-> C Main File. (Refer Fig. 5.6)
 10. In new window which appears, give a file name and keep extension as c and hit finish. (Refer Fig. 5.7)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig57.png)
-Fig. 5.7
+#### Fig. 5.7
 
 11. Under Window-> Target Memory View, select Configuration Bits. (Refer Fig. 5.8)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig58.png)
-Fig. 5.8
+#### Fig. 5.8
 
 12. Select the configuration bits as per requirement. Recommended bit configuration is shown in Fig. 5.9. Click Generate Source code to output.
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig59.png)
-Fig. 5.9
+#### Fig. 5.9
 
 13. Copy the generated code and paste it to the top of the main file.(Refer Fig. 5.10)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig510.png)
-Fig. 5.10
+#### Fig. 5.10
 
 14. Write the code to blink the LED. (LED blink code is given in the next Section)
 15. Save the file and click on Build Project or press F11.(Refer Fig. 5.11)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig511.png)
-Fig. 5.11
+#### Fig. 5.11
 
 16. Check if Build is successful. (Refer Fig. 5.12)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig512.png)
-Fig. 5.12
+#### Fig. 5.12
 
 17. Dashboard gives details about the memory usage.(Refer Fig. 5.13)
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig513.png)
-Fig. 5.13
+#### Fig. 5.13
 
 ## LED Blink Code
 
