@@ -269,4 +269,12 @@ The board has a 12V SPDT relay for switching power line loads such as Lamps and 
 ## Block Diagram
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/DEvBoardDB.png)
-Figure: High-level block diagram of PIC32MX795F512L Development board
+#### Figure: High-level block diagram of PIC32MX795F512L Development board
+
+## Board Schematics
+
+## Sample Codes
+
+## Online resources & Courses
+PIC 32 Course on Udemy:
+https://www.udemy.com/user/74fe0e9f-2797-4fb8-b425-982f74d2c914/ 
