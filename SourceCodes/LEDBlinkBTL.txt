@@ -1,0 +1,46 @@
+/* 
+ * File:   LEDBlink.c
+ * Author: prabr
+ *
+ * Created on 4 January, 2020, 5:16 PM
+ */
+
+
+// PIC32MX795F512L Configuration Bit Settings
+
+// 'C' source line config statements
+
+
+#include <xc.h>
+
+#define LED1            LATDbits.LATD0
+#define TRIS_LED1       TRISDbits.TRISD0
+#define LED1_SET()      LATDSET = _LATD_LATD0_MASK;
+#define LED1_CLR()      LATDCLR = _LATD_LATD0_MASK;
+#define LED1_INV()      LATDINV = _LATD_LATD0_MASK;
+void delay(uint16_t ms)
+{
+    uint16_t i,j;
+    for(j=0;j<=ms;j++)
+    {
+        for(i=0;i<=8888;i++);
+    }
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+ * 
+ */
+int main(int argc, char** argv) 
+{
+    TRIS_LED1=0; // Set RD0 as output
+    while(1)
+    {
+        LED1_INV();
+        delay(500);
+    }
+
+    return (EXIT_SUCCESS);
+}
