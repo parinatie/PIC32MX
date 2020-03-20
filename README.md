@@ -117,3 +117,19 @@ To communicate with and program the development board, the following hardware an
 ## LED Blink Code
 
 Main code is available here: https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/LEDBlink_Pickit.txt
+
+## Program the device using Flash Programmer.
+#### Note: If the target board is loaded with Bootloader, using Flash Programmer may overwrite Bootloader. 
+
+1. After successful build of the project, under file menu select Project Properties. (Refer Fig. 7.1)
+2. In Project Properties window, under categories select Conf:[default]. Under Hardware tools: Select the ICD3/4 or PicKit3/4 as per your need if it is not selected while creating the project. Click OK. (Refer Fig. 7.2)
+3. Connect the flash programmer to the target board. (Ex. ICSP header in PicKit4.). Supply the power to the target board and click Make and Program Device Main Project. (Refer Fig. 7.3)
+4. Wait for the programmer to flash the memory. LED should blink in the target board after flash is successful. Check if the LED jumper is placed properly in the target board if LED does not blink.
+#### Note: ICD or PicKit programmer might take it long to download the code to the target device for the first time.
+
+##     8 Using the Bootloader Program
+1. If the target board comes up with a bootloader, we need to add the custom linker file provided by the board vendor. Parinati PIC32MX795 development board has on-board USB bootloader. Copy the app_32MX795F512L.ld linker file (download from here) to the project folder. (Refer Fig. 8.1)
+2. In MPLABX IDE, under project folders, right click on linker files group and select Add existing Item.
+3. In the Add file pop-up, select the copied linker file and click on Select.
+4. IMPORTANT: The bootloader decides the configuration bits and we should not set the configuration bits in our application. So delete all #pragma lines which sets the configuration bits from the main program.
+5. The code reduces to as available here: 
