@@ -34,9 +34,13 @@ To communicate with and program the development board, the following hardware an
 * Windows OS
 
 ## Software Installation
-### * MPLABX IDE: 
+### MPLABX IDE: 
 1. Download the latest version of MPLABX IDE from: https://www.microchip.com/mplab/mplab-x-ide
 2. Install the IDE in your computer
-### * XC32 C Compiler:
+### XC32 C Compiler:
 1. Download the latest version of the XC32 C compiler from: https://www.microchip.com/mplab/compilers
 2. Install XC32 compiler in your system.
+
+## Creating a Project
+1. Launch the MPLAB X IDE
+2. Under file menu click on New Project or use hotkey Ctrl+Shift+N 
