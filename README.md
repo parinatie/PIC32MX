@@ -388,10 +388,10 @@ PIC 32 Course on Udemy: https://www.udemy.com/user/74fe0e9f-2797-4fb8-b425-982f7
 Download from here https://github.com/parinatie/PIC32MX/blob/master/Downloads/PIC32Board_ManualV1_0.pdf
 
 ## Order Online
-To order the development board follow the link 
+To order the development board follow the link https://www.swadeshee.org
 
 ## Contact Us
 Email: parinatie@gmail.com
-Web: www.swadeshee.org
+Web: https://www.swadeshee.org
 Mob: +91-8105330171 (IST 10:00 AM to 5:00 PM only)
 WhatsApp: +91-8105330171
