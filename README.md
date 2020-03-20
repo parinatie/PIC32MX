@@ -127,7 +127,7 @@ Main code is available here: https://github.com/parinatie/PIC32MX/blob/master/So
 4. Wait for the programmer to flash the memory. LED should blink in the target board after flash is successful. Check if the LED jumper is placed properly in the target board if LED does not blink.
 #### Note: ICD or PicKit programmer might take it long to download the code to the target device for the first time.
 
-##     8 Using the Bootloader Program
+##     Using the Bootloader Program
 1. If the target board comes up with a bootloader, we need to add the custom linker file provided by the board vendor. Parinati PIC32MX795 development board has on-board USB bootloader. Copy the app_32MX795F512L.ld linker file (download from here: https://github.com/parinatie/PIC32MX/blob/master/Downloads/app_32MX795F512L.ld) to the project folder. (Refer Fig. 8.1)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig81.png)
@@ -176,7 +176,7 @@ For more details and documentation on PIC32 Bootloader, visit: https://www.micro
 
 Check the 1388 Application Note: http://ww1.microchip.com/downloads/en/AppNotes/01388B.pdf
 
-##     9 Hardware Features
+##     Hardware Features
 The key features of Swadeshee Parinati PIC32 development board are given in detail in this section:
    #### 1. PIC32MX795F512L 32-bit microcontroller
 The development board has PIC32MX795F512L permanently soldered on it to provide the computational resources to implement your embedded requirements.
@@ -265,3 +265,8 @@ All the I/O pins are available to the users Jof the development board. Most of I
 
  ####   17. On-board 12V SPDT relay for power load switching 
 The board has a 12V SPDT relay for switching power line loads such as Lamps and DC pumps. The relay is driven by an active-high relay drive circuit connected to RE5 through jumper J9.
+
+## Block Diagram
+
+![](https://github.com/parinatie/PIC32MX/blob/master/images/DEvBoardDB.png)
+Figure: High-level block diagram of PIC32MX795F512L Development board
