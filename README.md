@@ -3,7 +3,7 @@
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/PIC32MX1.png)
 
-##Introduction
+## Introduction
 Thank you for purchasing the Swadeshee Parinati PIC32MX Development Board. This board provides a low-cost, modular development system for Microchip’s PIC32MX 32-bit microcontroller. The Development Board comes pre-loaded with demonstration software for the user to explore the new features of the PIC32MX. It is also expandable through pin headers for external interface, which allows the user to extend its functionality. The PIC32MX Development Board also supplies on-board circuitry and consists of bootloader firmware for flash programming with USB port.
 
 ## PIC32MX Development Board Functionality & Features
@@ -26,3 +26,9 @@ A representation of the layout of the PIC32MX Development Board is shown in Figu
     15. On-board EEPROM with I2C interface
     16. Jumpers for shared I/O pins with on-board peripherals 
     17. On-board 12V SPDT relay for power load switching
+
+##     3 Host Computer Requirements
+To communicate with and program the development board, the following hardware and software requirements must be met:
+• PC-compatible system
+• An available USB port on PC or powered USB hub
+• Windows OS
