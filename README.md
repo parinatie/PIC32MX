@@ -131,7 +131,7 @@ Main code is available here: https://github.com/parinatie/PIC32MX/blob/master/So
 1. If the target board comes up with a bootloader, we need to add the custom linker file provided by the board vendor. Parinati PIC32MX795 development board has on-board USB bootloader. Copy the app_32MX795F512L.ld linker file (download from here: https://github.com/parinatie/PIC32MX/blob/master/Downloads/app_32MX795F512L.ld) to the project folder. (Refer Fig. 8.1)
 
 ![](https://github.com/parinatie/PIC32MX/blob/master/images/Fig81.png)
-
+#### Fig. 8.1
 
 2. In MPLABX IDE, under project folders, right click on linker files group and select Add existing Item.
 3. In the Add file pop-up, select the copied linker file and click on Select.
@@ -175,3 +175,93 @@ Click on open. (Refer Fig. 8.8)
 For more details and documentation on PIC32 Bootloader, visit: https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en554836 
 
 Check the 1388 Application Note: http://ww1.microchip.com/downloads/en/AppNotes/01388B.pdf
+
+##     9 Hardware Features
+The key features of Swadeshee Parinati PIC32 development board are given in detail in this section:
+   #### 1. PIC32MX795F512L 32-bit microcontroller
+The development board has PIC32MX795F512L permanently soldered on it to provide the computational resources to implement your embedded requirements.
+
+ ####   2. USB Bootloader for Flash programming
+The development board comes pre-loaded with USB bootloader to easily program the PIC32MX795F512L without the need of hardware programmers. 
+Note: Bootloader Courtesy- AN1388 Microchip Inc.
+
+ ####   3. Red power-indicator LED
+The indicator LED glows if the board has sufficient power and voltage supply.
+
+####    4. Regulated +5V and +3.3V power supply for powering the board via USB or external DC source.
+There are two ways to supply power to the development board:
+• USB bus power through USB port.
+• 12V DC input to DC Jack.
+
+####    5. On-board crystal for precision microcontroller clocking (8 MHz)
+The development board has 8 MHz external crystal oscillator for accurate clock timing. PIC32MX795F512L has internal 8MHz and 32kHz oscillators with PLL capability to run at 80MHz maximum system clock.
+
+ ####   6. On-board 32kHz crystal for RTC applications
+For accurate applications based on real-time clock, the board has on-board 32 kHz external oscillator. To use 32 kHz external oscillator, you need to solder the pads JP1 and JP2.
+
+####    7. USB connectivity
+The Micro USB B-type connector enables us to build a lot of possibilities around USB as PIC32MX795F512L has USB OTG support in addition to USB host and device capabilties.
+USB uses following pins:
+D+ connected RG2
+D- connected to RG3
+USB ID connected to RF3
+VBUS ON connected to RB5 through jumper J23
+USB FAULT connected to RE0 through jumper J4
+
+####    8. 2X16 LCD display
+2x16 LCD will help in building simple user interface. Jumpers J10, J14, J20, J24, J28 and J17 must be suitably placed to used LCD pins.
+The pins used by LCD are:
+D4 connected to RD4 through jumper J10
+D5 connected to RD5 through jumper J14
+D6 connected to RD6 through jumper J17
+D7 connected to RD7 through jumper J20
+EN connected to RG1 through jumper J28
+RS connected to RG0 through jumper J24
+
+####    9. Four push-button switches for user-defined inputs and additional push button for microcontroller reset
+        ◦ SW1: Active-low switch connected to RD13 though jumper J8
+        ◦ SW2: floating switch connected to RA14 though jumper J18
+        ◦ SW3: Active-low switch connected to RE8 though jumper J11
+        ◦ SW4: floating switch connected to RE9 though jumper J12
+SW1 and SW3 has on-board pull-ups. SW2 and SW4 does not have pull-up resistors. SW2 and SW4 must be used with CN pins with internal weak pull-ups enabled. Use jumpers J8, J18, J11 and J12 to connect the switches to processor pins.
+
+####    10. Four user-defined indicator LEDs
+LED1- active high connected to RD0
+LED2- active high connected to RD1
+LED2- active high connected to RD2
+LED3- active high connected to RG15
+Use jumpers J5, J7, J15 and J26 to connect the LEDs to processor pins.
+
+ ####   11. 6-pin ICSP header for flash programmer interface
+The board supports ICSP flash programming using PicKit3 or PicKit4. ICSP header is available on J35. 
+When ICSP is not used, following two pins can be used for GPIO:
+PGC- RB0
+PGD- RB1
+Note:  Swadeshee Parinati PIC32 development board has pre-loaded USB bootloader for flash programming. So using ICSP header for flash programming will overwrite the existing bootloader code.
+
+ ####   12. Dedicated pin headers for BLE and ESP8266 modules (Modules not included)
+The development board has headers for ESP8266 and BLE modules such as HM10 or HC05 to be connected to establish a wireless connectivity. With this the board can be used for IoT projects.
+
+####    13. On-board Potentiometer for ADC input and LM35 temperature sensor
+To work with ADC, the board has one potentiometer and LM35 temperature sensor. 
+Potentiometer is connected to RB3 through jumper J21
+LM35 is connected to RB2 through jumper J19.
+
+ ####   14. On-board MCP3201 12-bit A/D converter with SPI interface
+For testing SPI communication, MCP3201 is provided on-board which gets analog input from LM35 sensor. MCP3201 is 12-bit ADC with Vref supplied from 3.3V regulated output.
+For SPI communication:
+SCK is connected to RG6 through Jumper J25
+SDI is connected to RG7 through Jumper J30
+SS2 is connected to RG9 through Jumper J31
+
+####    15. On-board EEPROM with I2C interface
+The development board has 24C32 EEPROM to store non-volatile data. It makes use of 2-wire I2C protocol.
+SDA is connected to RA3 with a pull-up resistor 
+SCL is connected to RA2 with a pull-up resistor.
+Use jumpers J6 and J13 for 2-wire communications.
+
+####    16. Jumpers for shared I/O pins with on-board peripherals
+All the I/O pins are available to the users Jof the development board. Most of I/O pins are available at Headers J1, J2, J32, J35, J3, J22. Few pins are available at J36, J37 and J3.  The pins marked * on PCB are multiplexed with few on-board peripherals. These multiplexed I/O pins are connected to through 3 pin headers that allow us to use with on-board peripherals or external hardware.  
+
+ ####   17. On-board 12V SPDT relay for power load switching 
+The board has a 12V SPDT relay for switching power line loads such as Lamps and DC pumps. The relay is driven by an active-high relay drive circuit connected to RE5 through jumper J9.
