@@ -377,8 +377,11 @@ MPLABX Project: Coming soon
 
 ## Bootloader HEX
 In case you overwrite the USB bootloader, use PicKit4 or any hardware programmer to flash the USB bootloader program. USB Bootloader can be downloaded from here: https://github.com/parinatie/PIC32MX/blob/master/Downloads/USB_HID_Btl_795F512L_StarterKit.hex
+
 USB Bootloader courtesy Microchip. 
+
 More about Bootloader here: https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en554836
+
 PIC32 Bootloader Application Note: http://ww1.microchip.com/downloads/en/Appnotes/01388B.pdf
 
 ## Online resources & Courses
@@ -392,6 +395,9 @@ To order the development board follow the link https://www.swadeshee.org
 
 ## Contact Us
 Email: parinatie@gmail.com
+
 Web: https://www.swadeshee.org
+
 Mob: +91-8105330171 (IST 10:00 AM to 5:00 PM only)
+
 WhatsApp: +91-8105330171
