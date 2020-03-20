@@ -27,8 +27,16 @@ A representation of the layout of the PIC32MX Development Board is shown in Figu
     16. Jumpers for shared I/O pins with on-board peripherals 
     17. On-board 12V SPDT relay for power load switching
 
-##     3 Host Computer Requirements
+## Host Computer Requirements
 To communicate with and program the development board, the following hardware and software requirements must be met:
-• PC-compatible system
-• An available USB port on PC or powered USB hub
-• Windows OS
+* PC-compatible system
+* An available USB port on PC or powered USB hub
+* Windows OS
+
+## Software Installation
+### * MPLABX IDE: 
+1. Download the latest version of MPLABX IDE from: https://www.microchip.com/mplab/mplab-x-ide
+2. Install the IDE in your computer
+### * XC32 C Compiler:
+1. Download the latest version of the XC32 C compiler from: https://www.microchip.com/mplab/compilers
+2. Install XC32 compiler in your system.
