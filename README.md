@@ -304,7 +304,7 @@ MPLABX Project: Coming soon
 #### External Interrupt3:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ExtInt3.c
 
-MPLABX Project: Coming soon
+MPLABX Project: https://github.com/parinatie/PIC32MX/blob/master/MPLABXProjects/ExtInt1.X.zip
 
 #### External Interrupt4:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ExtInt4.c
@@ -319,7 +319,7 @@ MPLABX Project: https://github.com/parinatie/PIC32MX/blob/master/MPLABXProjects/
 #### Timer1:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer1.c
 
-MPLABX Project: 
+MPLABX Project: https://github.com/parinatie/PIC32MX/blob/master/MPLABXProjects/Timer1_Test.X.zip
 
 #### Timer1 Gated:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer1_Gated.c
