@@ -279,12 +279,12 @@ Schematics PDF: https://github.com/parinatie/PIC32MX/blob/master/Downloads/PIC32
 #### LED Blink:  
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/LEDBlinkBTL.txt
 
-MPLABX Project: Coming soon
+MPLABX Project: https://github.com/parinatie/PIC32MX/blob/master/MPLABXProjects/LEDBlink.X.zip
 
 #### Switch Sense:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/SwitchSense.c
 
-MPLABX Project: Coming soon
+MPLABX Project: https://github.com/parinatie/PIC32MX/blob/master/MPLABXProjects/SwitchSense.X.zip
 
 #### External Interrupt0: 
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ExtInt0.c
@@ -314,12 +314,12 @@ MPLABX Project: Coming soon
 #### Change Notification Interrupt: 
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/CN2.c
 
-MPLABX Project: Coming soon
+MPLABX Project: https://github.com/parinatie/PIC32MX/blob/master/MPLABXProjects/CN_Test.X.zip
 
 #### Timer1:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer1.c
 
-MPLABX Project: Coming soon
+MPLABX Project: 
 
 #### Timer1 Gated:
 C code : https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/Timer1_Gated.c
@@ -360,7 +360,7 @@ MPLABX Project: Coming soon
 #### 16x2 LCD:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/LCD_main.c
 
-MPLABX Project: Coming soon
+MPLABX Project: https://github.com/parinatie/PIC32MX/blob/master/MPLABXProjects/LCDInterfacing.X.zip
 
 #### ADC:
 C code :https://github.com/parinatie/PIC32MX/blob/master/SourceCodes/ADC_POT_RB3.c
